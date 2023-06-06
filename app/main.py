@@ -1,8 +1,6 @@
-from fastapi import Body, FastAPI, Path, Query
-
 from constants import ModelName
+from fastapi import Body, FastAPI, Path, Query
 from models import Item, User
-
 
 app = FastAPI()
 
